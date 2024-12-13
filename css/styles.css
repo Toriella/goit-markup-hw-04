@@ -1,0 +1,369 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: rgba(46 47 66 0.4);
+    --hero-background: rgba(46 47 66 70%);
+    --white-background: #ffffff;
+    --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--white-background);
+
+}
+
+
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*<-----------HEADER------------->*/
+
+.header {
+    display: flex;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: var(--dark);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+span {
+    color: var(--primary-brand);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.container{
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 76px;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation {
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation:hover {
+    color: var(--pressed-state);
+}
+
+.header-contact{
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.header-contact:hover {
+    color: var(--pressed-state);
+}
+
+
+/*-----------TITLE------------*/
+
+
+.title {
+    background-color: var(--dark);
+}
+
+.title-wrap {
+    padding: 188px 0;
+}
+
+.title-name {
+    color: var(--white-background);
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    width: 496px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title-btn {
+    display: block;
+    color: var(--white-background);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: var(--primary-brand);
+    margin: 0 auto;
+    margin-top: 48px;
+    border: none;
+}
+
+.title-btn:hover {
+    background-color: var(--pressed-state);
+}
+
+
+/*!-------------ADVANTAGES----------------*/
+
+
+.advantages-list {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    gap: 22px;
+}
+
+.advantages-item {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-bottom: 8px;
+}
+
+.advantages-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/**---------PRODUCT----------*/
+
+
+.product-item {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.product-title {
+    color: var(--dark);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding-bottom: 72px;
+    text-align: center;
+}
+
+
+/*-----------TEAM---------------*/
+
+
+.team {
+    background-color: var(--light);
+}
+
+.team-wrap {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-title {
+    color: var(--dark);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding-bottom: 72px;
+    text-align: center;
+}
+
+.team-item {
+    display: flex;
+    gap: 24px;
+}
+
+
+.team-name {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 8px;  
+    text-align: center;  
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+
+
+/*<---------FOOTER--------->*/
+
+
+
+.footer{
+    background-color: var(--dark);
+}
+
+.footer-logo{
+    color: var(--light);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    color: var(--light);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    padding-bottom: 100px;
+}
+
+/*------------portfolio--------------*/
+
+.button-list {
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.button-item {
+    color: var(--primary-brand);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--light);
+    border: 1px solid var(--accent);
+    
+}
+
+.button-item:hover{
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+}
+
+
+/*!-----------ITEMS-----------*/
+
+
+.items {}
+
+.items-title {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding: 32px 16px 8px;
+}
+
+.items-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.items-list:last-child {
+    margin-bottom: 120px;
+}
+
+.items-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
