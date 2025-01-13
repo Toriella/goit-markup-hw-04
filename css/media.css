@@ -1,0 +1,139 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .items-img-img {
+        width: 396px;
+        height: 280px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 766px;   
+    }
+
+    .advantages-list {
+        padding: 96px 0px;
+        gap: 72px 24px;
+    }
+
+    .advantages-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .team-item {
+        gap: 64px 24px;
+    }
+
+    .cust-list {
+        gap: 72px 24px;
+    }
+
+    .cust-item {
+        width: calc((100% - 48px) / 3);
+        max-width: 168px;
+    }
+
+    .button-list {
+        justify-content: center;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .items-list {
+        gap: 72px 24px;
+        justify-content: left;
+    }
+
+    .items-img-img {
+        width: 356px;
+        height: 300px;
+    }
+
+    .items-content {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .items-list:last-child {
+        margin-bottom: 96px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1158px;
+    }
+
+    .advantages-list {
+        padding: 120px 0px;
+    }
+
+    .advantages-list-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .advantages-item {
+        text-align: left;
+    }
+
+    .advantages-icon {
+        display: flex;
+    }
+
+    .product {
+        display: block;
+    }
+
+    .team-wrap {
+        padding: 120px 0px;
+    }
+
+    .team-mate {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .cust {
+        padding: 120px 0;
+    }
+
+    .customers {
+        padding-bottom: 72px;
+    }
+
+    .cust-list {
+        gap: 24px;
+    }
+
+    .cust-item {
+        width: calc((100% - 5 * 24px) / 6);
+    }
+
+    .button-list {
+        margin-top: 100px;
+        margin-bottom: 72px;
+    }
+
+    .button-item {
+        padding: 12px 24px;
+    }
+
+    .items-list {
+        gap: 48px 24px;
+    }
+
+    .items-img-img {
+        width: 360px;
+        height: 300px;
+    }
+
+    .items-content {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .items-list:last-child {
+        margin-bottom: 120px;
+    }
+}
