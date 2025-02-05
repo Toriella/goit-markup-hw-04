@@ -60,6 +60,33 @@
     .items-list:last-child {
         margin-bottom: 96px;
     }
+
+    .footer-list {
+        align-items: baseline;
+        justify-content: start;
+        margin-left: 108px;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .footer-text {
+        text-align: left;
+        margin-right: 24px;
+    }
+
+    .footer-social-text {
+        text-align: left;
+    }
+
+    .footer-form-text {
+        margin-bottom: 16px;
+    }
+
+    .footer-form {
+        gap: 24px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -135,5 +162,14 @@
 
     .items-list:last-child {
         margin-bottom: 120px;
+    }
+
+    .footer-list {
+        gap: 80px;
+        margin-left: 156px;
+    }
+
+    .footer-text {
+        margin-right: 40px;
     }
 }
