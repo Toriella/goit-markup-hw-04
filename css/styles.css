@@ -103,7 +103,7 @@ span {
 }
 
 .header-list{
-    display: flex;
+    display: none;
     gap: 40px;
 }
 
@@ -117,7 +117,7 @@ span {
 }
 
 .header-contact-list {
-    display: flex;
+    display: none;
     gap: 40px;
 }
 
